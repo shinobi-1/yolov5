@@ -1,4 +1,5 @@
 import cv2
+print(cv2.__version__)
 
 def extract_clip(input_file, output_file, start_time, end_time):
     # Open the input video file
@@ -42,7 +43,7 @@ def extract_clip(input_file, output_file, start_time, end_time):
     print("Clip extraction complete.")
 
 # Example usage:
-input_file = 'input.mp4'
+input_file = 'inputs.mp4'
 output_file = 'output_clip.mp4'
 start_time = 10  # Start time of the clip in seconds
 end_time = 20    # End time of the clip in seconds
